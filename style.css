@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Raleway", sans-serif;
+    line-height: 1.6;
+    background-image: url(https://wallpaperaccess.com/full/4723250.jpg);
+    background-repeat: no-repeat;
+    opacity:0.8;
+    background-size: cover;
+    background-position: center;
+
+}
+
+#container {
+    max-width: 700px;
+    margin: 3rem auto;
+    padding: 0rem;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 2rem;
+    color:#fff;
+
+}
+
+#description {
+    font-style: italic;
+    font-weight: 200;
+    text-shadow: 1px 1px 1px rgb(168, 178, 180);
+}
+
+#title {
+    font-size: 2.1rem;
+    padding: 0.3rem;
+}
+
+#survey-form {
+    background-color: rgba(86, 85, 152, 0.8);
+    border-radius: 4px;
+    color: #fff;
+    padding: 2rem;
+    font-size: 1.1rem;
+    
+}
+
+.form-groups .textarea {
+    width: 95%;
+    font-size: 0.9rem;
+    padding: 0.7rem;
+    border-radius: 4px;
+
+}
+
+.input-radio, .input-checkbox {
+    display: inline-block;
+    margin-right: o.625rem;
+    min-height: 1rem;
+    min-width: 1rem;
+}
+
+.btn-submit {
+    background: #37af65;
+    width: 100%;
+    padding: 0.7rem;
+    font-size: 1.1rem;
+    border-radius: 4px;
+    color: #fff;
+
+}
